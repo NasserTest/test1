@@ -14,6 +14,7 @@ public class Test {
 		String sExpectedResult;
 
 		try {
+            
 			File fTestSuite = new File("TestSuite.csv");
 			Scanner sSuiteScanner = new Scanner(fTestSuite);
 			sSuiteScanner.useDelimiter(",|\n|\r");
